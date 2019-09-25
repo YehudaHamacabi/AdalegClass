@@ -1,0 +1,50 @@
+html {
+    background-color: rgb(198, 255, 3);
+    text-align: justify;
+}
+
+h1 {
+    color: rgb(0, 50, 182);
+    font-weight: bolder;
+    font-size: 75px;
+}
+
+h2 {
+    color: rgb(132, 0, 182);
+    font-weight: bold;
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 18px;
+}
+
+.adaleg_logo {
+    width: 200px;
+    height: 200px;
+}
+
+.compugen_logo {
+    width: 200px;
+    height: 200px;
+}
+
+.first_paragraph {
+    font-size: 20px;
+}
+
+#first_id {
+    font-weight: 900;
+}
+
+#italics {
+    font-style: italic;
+}
+
+#dunno {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}

@@ -3,28 +3,29 @@
 
 <head>
     <title>Class Summery</title>
+    <link rel="stylesheet" href="1st_class.css">
 </head>
 
 <body>
-    <h1>First class summery.</h1>
+    <h1 id="dunno">First class summary.</h1>
     <h2>What we learnt today:</h2>
     <ol>
-        <li>We learnt</li>
+        <li id="italics">We learnt</li>
         <li>how to</li>
-        <li>make a organized list.</li>
+        <li id="first_id">make a organized list.</li>
     </ol>
     <ul>
-        <li>And how to make an</li>
-        <li>unorganized list!</li>
+        <li id="italics">And how to make an</li>
+        <li id="first_id">unorganized list!</li>
     </ul>
-    <p>We can also make random words appear without bullets or numbers!I'm learning this class at <a
+    <p class="first_paragraph" id="italics">We can also make random words appear without bullets or numbers! I'm learning this class at <a
             href="https://adalegit.com/">Adaleg</a>, which is located at <a
             href="http://www.compugen.com/">Compugen</a>.</p>
-    <p>Here are the logos to their companies:
-        <a href="https://adalegit.com/" target="_blank"><img
+    <p id="first_id">Here are the logos to their companies:</p>
+    <p><a href="https://adalegit.com/" target="_blank"><img class="adaleg_logo"
                 src="data:image/jpeg;base64,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"
                 alt="AdaegIT"></a>
-        <a href="http://www.compugen.com/" target="_blank"><img
+        <a href="http://www.compugen.com/" target="_blank"><img class="compugen_logo"
                 src="https://pbs.twimg.com/profile_images/864104269850464256/wSkEy5Z7_400x400.jpg" alt="Compugen"></a>
     </p>
 
